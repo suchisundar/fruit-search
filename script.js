@@ -7,7 +7,7 @@ function isLetter(char) {
 	return (char >= 'a' && char <= 'z') || (char >= 'A' && char <= 'Z');
   }
 function search(keywordInput) {
-	let results = []; // new array results
+
 	if (keywordInput.length) {
 		results = fruit.filter(keyword => keyword.toLowerCase().includes(keywordInput.toLowerCase())); // filters fruit list for the keyword input
 	}
